@@ -1,0 +1,23 @@
+/* Home.css */
+
+
+.home-container {
+    display: flex;
+  }
+  
+  .gif-section {
+    width: 25%; /* Adjust as needed */
+    /* height: 100vh; */
+    /* background-image: url('/src/assets/images/.gif'); */
+    /* background-size: cover;
+    background-position: center; */             
+    /* background-repeat: no-repeat; */
+    
+
+
+  }
+  
+  .content-section {
+    flex-grow: 1;
+  }
+  

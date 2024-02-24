@@ -1,0 +1,79 @@
+.login-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(233, 239, 244, 0.733);
+    text-align: center;
+    transform: translateY(-90px);
+    overflow: hidden;
+    /* background-image:url("C:/myapp/src/assets/images/bg2.jpg"); */
+    
+  }
+
+
+  body{
+    /* background-image:url("C:\myapp\src\assets\images\bg2.jpg"); */
+    background-size: cover;
+    /* overflow: hidden; */
+  }
+  .bg{
+    background-image:url("C:/myapp/src/assets/images/bg2.jpg");
+    position: relative;
+    padding:8%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    overflow: hidden;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .log-use{
+    transform: translateX(-110px);
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  .log-forgot-password {
+    text-align: right;
+    margin-top:1px;
+    transform: translateX(-100px);
+
+  }
+  
+  .log-forgot-password a {
+    color: #0044ff; /* Link color */
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .log-forgot-password a:hover {
+    text-decoration: underline;
+  }
