@@ -1,0 +1,94 @@
+.body1 {
+    max-width: 354px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .form1,
+  .display {
+    background-color: #1592c8;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 50px rgba(18, 15, 15, 0.3);
+    text-align: center;
+    font-size: x-large;
+  }
+  
+  .label1 {
+    text-align: left;
+    margin-left: 10px; /* Adjust the margin as needed */
+    margin-bottom: 60px;
+    color: #555;
+  }
+  .he {
+    margin-top: 25px;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(45deg, #ff6b6b, #556ee6);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+  }
+  
+  .input1 {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .buttonx,
+  .buttonY {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: x-large;
+  }
+  
+  .buttonY {
+    background-color: #ff9800;
+    margin-left: 10px;
+  }
+  
+  .buttonx:hover,
+  .buttonY:hover {
+    background-color: #45a049;
+  }
+  
+  .p1 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .tab {
+    margin-right: 10px;
+  }
+  
+  .arrow-back {
+    position: absolute;
+    top: 20px;
+    left: 20px; /* Adjusted left position for better alignment */
+    cursor: pointer;
+    color: #000000; 
+    z-index: 999; /* Ensures it's above other elements */
+  }
+  .your-image-class {
+    width: 50%; /* Adjust the percentage as needed */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  img {
+    width: 50%; /* Adjust the percentage as needed */
+    height: auto; /* Maintain the aspect ratio */
+  }
+    

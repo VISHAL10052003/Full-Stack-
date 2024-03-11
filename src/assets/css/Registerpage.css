@@ -1,0 +1,54 @@
+.outer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Adjusted to ensure full viewport height coverage */
+    background-image: url('../images/Regpage1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .inner-box {
+    background-color: rgba(1, 29, 1, 0.63); /* Use rgba for transparency */
+    border-radius: 9px;
+    padding: 40px; /* Reduced padding for smaller screens */
+    box-shadow: 0 0 20px rgba(61, 30, 30, 0); /* Adjusted box shadow */
+    width: 90%; /* Adjusted to take up 90% of the container's width */
+    max-width: 400px; /* Added max-width for better responsiveness */
+    color: #fff;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    color: #fffefe;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Added to include padding in width calculation */
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #000100;
+    color: #b44b4b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #fff; /* Added transition for hover effect */
+  }
+  
+  button:hover {
+    background-color: #afb954;
+  }
+  

@@ -1,0 +1,65 @@
+/* AboutPage.css */
+
+.containerabout {
+    width: 100%;
+    margin: 0 auto;
+    padding: 70px;
+  }
+  
+  .heading {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color:  #00ff48; 
+    margin-left: -50px
+    ;
+  }
+  
+  .paragraph {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: black;
+  }
+  .additional-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  /* .gray-shadow-box {
+    background-color: #0b010127;
+    width:auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(14, 11, 11, 0.171); /* Adjust shadow as needed */
+   */
+  
+  .additional-paragraph {
+    font-size: 20px;
+    color: #0000ff;
+    line-height: 2;
+    margin-left: 200px;
+    margin-right: 200px; /* Remove default margins */
+  }
+  .button-container {
+    text-align: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #194819;
+    color: greenyellow;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: rebeccapurple;
+  }
